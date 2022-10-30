@@ -1,0 +1,212 @@
+$background :rgb(21, 21, 25) !important;
+
+$green: #99B898;
+
+$outline:#333;
+
+$red: #ff7b72;
+
+
+
+$text-primary: #eee !important;
+
+
+$primary: #0069ff !important;
+
+.spacer{
+  //aspect-ratio: 2331.8/1227.75;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+  svg{
+    opacity: 0.1;
+  }
+}
+.background{
+  background-color: $background !important;
+}
+
+.layer1{
+  
+  background-image: url('./assets/circle-scatter-haikei.svg');
+  
+}
+
+
+body {
+  background-color: $background;
+  color: $text-primary;
+  --bg-primary: #151519;
+  --bg-secondary: #1c1c1f;
+  --border-color: #333;
+  --text-secondary: #ccc;
+  --text-primary: #eee;
+  --overlay: rgba(0,0,0,0.5);
+  --bad-luck-color: #bbb;
+  --code-comment: #8b949e;
+  --code-keyword: #ff7b72;
+  --code-key: #7ee787;
+  --code-constant: #79c0ff;
+  --code-string: #a5d6ff;
+  --code-number: #79c0ff;
+}
+
+
+.text-blue{
+  color:#0069ff;
+}
+
+
+
+
+
+.lead {
+  font-size: 20px !important;
+  line-height: 150% !important;
+  font-weight: 300;
+}
+
+.textwrap{
+  word-wrap: break-word;
+
+}
+
+
+
+
+
+
+
+
+//////Todo
+
+
+
+.todo{
+  background-color: $background;
+  border: 1px solid $outline !important;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+
+.todobutton{
+  height: 48px;
+}
+
+.block{
+  display: block !important;
+}
+
+
+//list items
+.list-group-item {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  background-color: $background;
+  color: #eee  !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+  font-size: 16px;
+  display: block !important;
+  --bs-list-group-border-color: #202A30;
+}
+
+
+
+//Danger button
+.danger{
+  width: 50px;
+  transition: all 0.1s ease 0s;
+  height: 48%;
+  justify-content: center;
+  -moz-box-align: center;
+  background-color: #ff7b72 !important;
+  --bs-btn-border-color: #ff7b72 !important;
+  color: $text-primary;
+  align-items: center;
+  -moz-box-pack: center;
+  display: flex;
+  border-radius: 5px 5px 5px 5px !important;
+  border: 0px none;
+  cursor: pointer;
+  height: 48px;
+}
+
+
+//Add button
+.add {
+  width: 25%;
+  transition: all 0.1s ease 0s;
+  height: 100%;
+  justify-content: center;
+  -moz-box-align: center;
+  background-color: $primary;
+  color: $text-primary;
+  align-items: center;
+  -moz-box-pack: center;
+  display: flex;
+  border-radius: 0px 5px 5px 0px !important;
+  border: 0px none;
+  cursor: pointer;
+  height: 48px;
+}
+
+//Done button
+.green{
+  width: 50px;
+  transition: all 0.1s ease 0s;
+  height: 48%;
+  justify-content: center;
+  -moz-box-align: center;
+  background-color:  #7ee787 !important;
+  --bs-btn-border-color: #7ee787 !important;
+  color: black !important;
+  align-items: center;
+  -moz-box-pack: center;
+  display: flex;
+  border-radius: 5px 5px 5px 5px !important;
+  border: 0px none;
+  cursor: pointer;
+  height: 48px;
+}
+
+.listbuttons{
+  width: 50px;
+  transition: all 0.1s ease 0s;
+  height: 48%;
+  justify-content: center;
+  -moz-box-align: center;
+  background-color: $primary;
+  color: $text-primary;
+  align-items: center;
+  -moz-box-pack: center;
+  display: flex;
+  border-radius: 5px 5px 5px 5px !important;
+  border: 0px none;
+  cursor: pointer;
+  height: 48px;
+}
+
+
+.form {
+  height: 48px;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color) !important;
+  border-radius: 5px 0px 0px 5px;
+  padding: 0px 1rem;
+  font-size: 1rem;
+  outline: none;
+  width: 100%;
+  font-weight: 400;
+  display: block;
+  color: var(--text-primary);
+  transition: all 0.1s ease 0s;
+}
+
+
